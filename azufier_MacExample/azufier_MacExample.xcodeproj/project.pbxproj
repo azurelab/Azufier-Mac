@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72770A8D1BCFE2D400CFE745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72770A8C1BCFE2D400CFE745 /* AppDelegate.m */; };
+		72770A8F1BCFE2D400CFE745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72770A8E1BCFE2D400CFE745 /* main.m */; };
+		72770A921BCFE2D400CFE745 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72770A911BCFE2D400CFE745 /* ViewController.m */; };
+		72770A941BCFE2D400CFE745 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72770A931BCFE2D400CFE745 /* Images.xcassets */; };
+		72770A971BCFE2D400CFE745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72770A951BCFE2D400CFE745 /* Main.storyboard */; };
+		72770AA31BCFE2D400CFE745 /* azufier_MacExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72770AA21BCFE2D400CFE745 /* azufier_MacExampleTests.m */; };
+		72770AB81BCFEA6900CFE745 /* AzufierController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72770AB71BCFEA6900CFE745 /* AzufierController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72770A9D1BCFE2D400CFE745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72770A7E1BCFE2D400CFE745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72770A851BCFE2D400CFE745;
+			remoteInfo = azufier_MacExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72770A861BCFE2D400CFE745 /* azufier_MacExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = azufier_MacExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72770A8A1BCFE2D400CFE745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72770A8B1BCFE2D400CFE745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72770A8C1BCFE2D400CFE745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72770A8E1BCFE2D400CFE745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72770A901BCFE2D400CFE745 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72770A911BCFE2D400CFE745 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72770A931BCFE2D400CFE745 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72770A961BCFE2D400CFE745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72770A9C1BCFE2D400CFE745 /* azufier_MacExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = azufier_MacExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72770AA11BCFE2D400CFE745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72770AA21BCFE2D400CFE745 /* azufier_MacExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = azufier_MacExampleTests.m; sourceTree = "<group>"; };
+		72770AB61BCFEA6900CFE745 /* AzufierController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AzufierController.h; sourceTree = "<group>"; };
+		72770AB71BCFEA6900CFE745 /* AzufierController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AzufierController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72770A831BCFE2D400CFE745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72770A991BCFE2D400CFE745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72770A7D1BCFE2D400CFE745 = {
+			isa = PBXGroup;
+			children = (
+				72770A881BCFE2D400CFE745 /* azufier_MacExample */,
+				72770A9F1BCFE2D400CFE745 /* azufier_MacExampleTests */,
+				72770A871BCFE2D400CFE745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72770A871BCFE2D400CFE745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72770A861BCFE2D400CFE745 /* azufier_MacExample.app */,
+				72770A9C1BCFE2D400CFE745 /* azufier_MacExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72770A881BCFE2D400CFE745 /* azufier_MacExample */ = {
+			isa = PBXGroup;
+			children = (
+				72770AB61BCFEA6900CFE745 /* AzufierController.h */,
+				72770AB71BCFEA6900CFE745 /* AzufierController.m */,
+				72770A8B1BCFE2D400CFE745 /* AppDelegate.h */,
+				72770A8C1BCFE2D400CFE745 /* AppDelegate.m */,
+				72770A901BCFE2D400CFE745 /* ViewController.h */,
+				72770A911BCFE2D400CFE745 /* ViewController.m */,
+				72770A931BCFE2D400CFE745 /* Images.xcassets */,
+				72770A951BCFE2D400CFE745 /* Main.storyboard */,
+				72770A891BCFE2D400CFE745 /* Supporting Files */,
+			);
+			path = azufier_MacExample;
+			sourceTree = "<group>";
+		};
+		72770A891BCFE2D400CFE745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72770A8A1BCFE2D400CFE745 /* Info.plist */,
+				72770A8E1BCFE2D400CFE745 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72770A9F1BCFE2D400CFE745 /* azufier_MacExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				72770AA21BCFE2D400CFE745 /* azufier_MacExampleTests.m */,
+				72770AA01BCFE2D400CFE745 /* Supporting Files */,
+			);
+			path = azufier_MacExampleTests;
+			sourceTree = "<group>";
+		};
+		72770AA01BCFE2D400CFE745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72770AA11BCFE2D400CFE745 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72770A851BCFE2D400CFE745 /* azufier_MacExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72770AA61BCFE2D400CFE745 /* Build configuration list for PBXNativeTarget "azufier_MacExample" */;
+			buildPhases = (
+				72770A821BCFE2D400CFE745 /* Sources */,
+				72770A831BCFE2D400CFE745 /* Frameworks */,
+				72770A841BCFE2D400CFE745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = azufier_MacExample;
+			productName = azufier_MacExample;
+			productReference = 72770A861BCFE2D400CFE745 /* azufier_MacExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72770A9B1BCFE2D400CFE745 /* azufier_MacExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72770AA91BCFE2D400CFE745 /* Build configuration list for PBXNativeTarget "azufier_MacExampleTests" */;
+			buildPhases = (
+				72770A981BCFE2D400CFE745 /* Sources */,
+				72770A991BCFE2D400CFE745 /* Frameworks */,
+				72770A9A1BCFE2D400CFE745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72770A9E1BCFE2D400CFE745 /* PBXTargetDependency */,
+			);
+			name = azufier_MacExampleTests;
+			productName = azufier_MacExampleTests;
+			productReference = 72770A9C1BCFE2D400CFE745 /* azufier_MacExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72770A7E1BCFE2D400CFE745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = azurelab;
+				TargetAttributes = {
+					72770A851BCFE2D400CFE745 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					72770A9B1BCFE2D400CFE745 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 72770A851BCFE2D400CFE745;
+					};
+				};
+			};
+			buildConfigurationList = 72770A811BCFE2D400CFE745 /* Build configuration list for PBXProject "azufier_MacExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72770A7D1BCFE2D400CFE745;
+			productRefGroup = 72770A871BCFE2D400CFE745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72770A851BCFE2D400CFE745 /* azufier_MacExample */,
+				72770A9B1BCFE2D400CFE745 /* azufier_MacExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72770A841BCFE2D400CFE745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72770A941BCFE2D400CFE745 /* Images.xcassets in Resources */,
+				72770A971BCFE2D400CFE745 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72770A9A1BCFE2D400CFE745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72770A821BCFE2D400CFE745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72770A921BCFE2D400CFE745 /* ViewController.m in Sources */,
+				72770A8F1BCFE2D400CFE745 /* main.m in Sources */,
+				72770A8D1BCFE2D400CFE745 /* AppDelegate.m in Sources */,
+				72770AB81BCFEA6900CFE745 /* AzufierController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72770A981BCFE2D400CFE745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72770AA31BCFE2D400CFE745 /* azufier_MacExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72770A9E1BCFE2D400CFE745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72770A851BCFE2D400CFE745 /* azufier_MacExample */;
+			targetProxy = 72770A9D1BCFE2D400CFE745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72770A951BCFE2D400CFE745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72770A961BCFE2D400CFE745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72770AA41BCFE2D400CFE745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		72770AA51BCFE2D400CFE745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		72770AA71BCFE2D400CFE745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = azufier_MacExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Abue/Dropbox/Maker_Project/04_ios_development/Azufier/Azufier,
+					"$(PROJECT_DIR)/azufier_MacExample",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72770AA81BCFE2D400CFE745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = azufier_MacExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Abue/Dropbox/Maker_Project/04_ios_development/Azufier/Azufier,
+					"$(PROJECT_DIR)/azufier_MacExample",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		72770AAA1BCFE2D400CFE745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = azufier_MacExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/azufier_MacExample.app/Contents/MacOS/azufier_MacExample";
+			};
+			name = Debug;
+		};
+		72770AAB1BCFE2D400CFE745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = azufier_MacExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/azufier_MacExample.app/Contents/MacOS/azufier_MacExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72770A811BCFE2D400CFE745 /* Build configuration list for PBXProject "azufier_MacExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72770AA41BCFE2D400CFE745 /* Debug */,
+				72770AA51BCFE2D400CFE745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72770AA61BCFE2D400CFE745 /* Build configuration list for PBXNativeTarget "azufier_MacExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72770AA71BCFE2D400CFE745 /* Debug */,
+				72770AA81BCFE2D400CFE745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72770AA91BCFE2D400CFE745 /* Build configuration list for PBXNativeTarget "azufier_MacExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72770AAA1BCFE2D400CFE745 /* Debug */,
+				72770AAB1BCFE2D400CFE745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72770A7E1BCFE2D400CFE745 /* Project object */;
+}
